@@ -4,8 +4,9 @@ The processed leaf-image dataset is available in the
 [Processed Dataset v1 release](https://github.com/Janci-Kundana/Leaf-Scan/releases/tag/processed-dataset-v1).
 
 The original `Proccessed Dataset.zip` archive is 7,668,619,852 bytes
-(7.14 GiB). It is stored as four release assets, each smaller than 2 GiB,
-to keep the Git repository small. Download all four parts before extracting.
+(7.14 GiB). It is stored as 58 release assets, each at most 128 MiB,
+to keep the Git repository small and allow uploads to retry independently.
+Download all 58 parts before extracting.
 
 ## Download and extract with the CLI
 
@@ -23,10 +24,7 @@ gh release download processed-dataset-v1 \
   --pattern processed-dataset.zip.sha256
 
 sha256sum --check SHA256SUMS && \
-  cat processed-dataset.zip.part-001 \
-      processed-dataset.zip.part-002 \
-      processed-dataset.zip.part-003 \
-      processed-dataset.zip.part-004 > processed-dataset.zip && \
+  cat processed-dataset.zip.part-* > processed-dataset.zip && \
   sha256sum --check processed-dataset.zip.sha256 && \
   unzip processed-dataset.zip
 ```
