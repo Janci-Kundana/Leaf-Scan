@@ -1,0 +1,75 @@
+{
+  "release": "processed-dataset-v1",
+  "source_archive": "Proccessed Dataset.zip",
+  "archive": "processed-dataset.zip",
+  "archive_bytes": 7668619852,
+  "archive_sha256": "2c144077ff311de6f134f463cba92e43b3023ef81f1cbf8ebbe420a9df2c41b2",
+  "archive_crc_validation": "All ZIP entries passed",
+  "archive_file_entries": 151868,
+  "jpeg_images": 87861,
+  "splits": {
+    "Test Set": {
+      "images": 72707,
+      "classes": {
+        "PepperBell_Bacterial Spot": 3419,
+        "PepperBell_Healthy": 656,
+        "Potato_earlyblt": 17772,
+        "Potato_healthy": 20290,
+        "Potato_lateblt": 20499,
+        "Tomato___Bacterial_spot": 1059,
+        "Tomato___Early_blight": 326,
+        "Tomato___Late_blight": 1751,
+        "Tomato___Leaf_Mold": 56,
+        "Tomato___Septoria_leaf_spot": 756,
+        "Tomato___Spider_mites Two-spotted_spider_mite": 879,
+        "Tomato___Target_Spot": 457,
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 3694,
+        "Tomato___Tomato_mosaic_virus": 303,
+        "Tomato___healthy": 790
+      }
+    },
+    "plantvillage_train_128x128": {
+      "images": 15154,
+      "classes": {
+        "Pepper__bell___Bacterial_spot": 870,
+        "Pepper__bell___healthy": 922,
+        "Potato___Early_blight": 876,
+        "Potato___Late_blight": 790,
+        "Potato___healthy": 128,
+        "Tomato_Bacterial_spot": 1202,
+        "Tomato_Early_blight": 886,
+        "Tomato_Late_blight": 1542,
+        "Tomato_Leaf_Mold": 743,
+        "Tomato_Septoria_leaf_spot": 1477,
+        "Tomato_Spider_mites_Two_spotted_spider_mite": 867,
+        "Tomato__Target_Spot": 1029,
+        "Tomato__Tomato_YellowLeaf__Curl_Virus": 2334,
+        "Tomato__Tomato_mosaic_virus": 302,
+        "Tomato_healthy": 1186
+      }
+    }
+  },
+  "parts": [
+    {
+      "name": "processed-dataset.zip.part-001",
+      "bytes": 1992294400,
+      "sha256": "43542f655615a05765711e428f18c9e60fd6efd9899e2ad3cd318aee56432357"
+    },
+    {
+      "name": "processed-dataset.zip.part-002",
+      "bytes": 1992294400,
+      "sha256": "b3c16d743abf353a9d78703dfc8b4419db07f00784d289f7e9900db27da04d59"
+    },
+    {
+      "name": "processed-dataset.zip.part-003",
+      "bytes": 1992294400,
+      "sha256": "8590ad9acd489d687d334980d1b7cb70826065ffbe3e575e3db2b43c2ba918af"
+    },
+    {
+      "name": "processed-dataset.zip.part-004",
+      "bytes": 1691736652,
+      "sha256": "f48075d6b16c15071545c751d2ee9323c8e37608b0c1efa6cc3b9fe599a42a3b"
+    }
+  ],
+  "notes": "Byte-for-byte copy of the original ZIP, split for GitHub Releases. Original directory names and macOS metadata are preserved."
+}
